@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = '안녕하세요';
+  names = [
+    '이웅재',
+    '박하은',
+    '박찬양'
+  ];
+
+  custom() {
+    console.log('custom');
+  }
 }
